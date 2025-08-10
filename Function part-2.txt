@@ -1,3 +1,4 @@
+//funtion code used to find the avg of three numbers
 #include <stdio.h>
 void avg(int,int,int);//funnction decleration
 
