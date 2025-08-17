@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct Employee
+{
+    char name[32];
+    int id;
+    float salary;
+};
+int main()
+{
+    struct Employee e={"Tittu Sunny",101,90000.00};// simple positional initialization
+    printf("Name=%s\nID=%d\nSalary=%.2f\n",e.name,e.id,e.salary);
+    return 0;
+}
