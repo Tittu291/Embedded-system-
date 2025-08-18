@@ -1,8 +1,8 @@
 #include <stdio.h>// not complete
 
 struct Book {
-    char title[51]; 
-    char author[31]; 
+    char title[65]; 
+    char author[40]; 
     float price;
 };
 
