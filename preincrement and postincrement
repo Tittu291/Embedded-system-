@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a=46;
+    printf("value of a:%d",a);
+    printf("\nvalue of a:%d",a++);//postincrement
+    printf("\nvalue of a:%d",a);
+    printf("\nvalue of a:%d",++a);//preinrement 
+    return 0;
+}
