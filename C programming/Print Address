@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+    printf(" Name:Tittu Sunny\n Adress:Kappadackamadathil(H) Kombanad(P.O) Krariyely Pin:683546\n Punchayath:Vengoor\n District:Ernakulam\n State:Kerala\n Country:India");
+    return 0;
+}
