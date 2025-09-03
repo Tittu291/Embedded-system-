@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int value[5]={1,2,3,4,5,};
+int *p=&value[0];
+int *a=&value[1];
+int *b=&value[2];
+int *c=&value[3];
+int *d=&value[4];
+printf("\n first  array elememt:%d",value[0]);
+printf("\n address of first array elememt :%d",p);
+printf("\n second array elememt:%d",value[1]);
+printf("\n address of second array elememt :%d",a);
+printf("\n third array elememt:%d",value[2]);
+printf("\n address of third array elememt:%d",b);
+printf("\n fourth array elememt:%d",value[3]);
+printf("\n address of fourth array elememt :%d",c);
+printf("\n fifth array elememt:%d",value[4]);
+printf("\n address of fifth array elememt:%d",d);
+return 0;
+}
