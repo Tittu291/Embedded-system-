@@ -1,0 +1,14 @@
+#include<stdio.h>//print even numbers by using array and loop
+int main()
+{
+    int pos=0;
+    int j=0;
+    int mark[10];
+    for(pos=0;pos<=9;pos++)
+    {
+    mark[pos]=j;
+    printf("value of mark[%d]=%d \n",pos,j);
+    j=j+2;
+    }
+    return 0;
+}
