@@ -1,0 +1,40 @@
+#include<stdio.h>
+void printBin(int n)//function to print binary
+{
+  int i,mask;
+  for(i=31;i>=0;i--)
+  {
+   mask=1<<i;//left shift
+   if(n & mask)
+   printf("1");
+   else
+   printf("0");
+  }
+  printf("\n");
+}
+void setbit(int n,int pos)//funtion to set the bit
+{
+int mask=1<<pos;
+n=n|mask;
+printBin(n);
+}
+void clearbit(int n,int pos)//functon to clear thr bit
+{
+int mask=~(1<<pos);
+n=n&mask;
+printBin(n);
+}
+int main()
+{
+    int a,b;
+    printf("Enter a Number:");
+    scanf("%d",&a);
+    printBin(a);
+    printf("Enter the position to set the bit:");
+    scanf("%d",&b);
+    setbit(a,b);
+    printf("Enter the position to clear the bit:");
+    scanf("%d",&b);
+    clearbit(a,b);
+    return 0;
+}  
