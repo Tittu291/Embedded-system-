@@ -1,0 +1,37 @@
+// first question about bit manipulation question avilable at readme folder
+#include<stdio.h>
+void printbin(int z)
+{
+    int i,mask;
+    for(i=31;i>=0;i--)
+ {
+   mask=1<<i;//left shift
+   if(z & mask)
+   printf("1");
+   else
+   printf("0");
+  }
+  printf("\n");
+
+}
+void check(int t,int g)
+{
+  int mask;
+mask=1<<(g-1);
+if(t & mask)
+printf("set");
+else
+printf("not set");
+}
+
+int main()
+{
+    int a,b;
+    printf("Enter the value:");
+    scanf("%d",&a);
+    printbin(a);
+    printf("Input the bit for check set or notset ");
+    scanf("%d",&b);
+    check(a,b);
+    return 0;
+}

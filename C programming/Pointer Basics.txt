@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int a=10,b=20,c=30;
+int *value1=&a;
+int *value2=&b;
+int *value3=&c; 
+printf("value of a = %d\n",*value1);
+printf("adress of a = %d\n",value1);
+printf("value of b = %d\n",*value2);
+printf("adress of b = %d\n",value2);
+printf("value of c = %d\n",*value3);
+printf("adress of c = %d\n",value3);
+return 0;
+}

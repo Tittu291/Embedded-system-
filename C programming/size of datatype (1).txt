@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int a; // size = 4 bytes
+    char b; // sizee = 1 bytes
+    printf("\nSize of int a = %d", sizeof(a));
+    printf("\nSize of char c = %d", sizeof(b));
+    printf("\nsize of float = %d", sizeof(float));
+ return 0;   
+}

@@ -1,0 +1,17 @@
+//function code used to find the avg of three numbers
+#include <stdio.h>
+void avg(int,int,int);//function decleration
+
+int main()//function call
+{
+    avg(10,20,40);    
+
+    return 0;
+}
+
+void avg(int a,int b,int c)//function definition
+{
+    int avg;
+    avg=(a+b+c)/3;
+    printf("avg of three numbers:%d",avg);
+}
