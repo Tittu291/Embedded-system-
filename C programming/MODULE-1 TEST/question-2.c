@@ -20,7 +20,7 @@ printBin(n);
 }
 void clearbit(int i)//clear thr bit
 {
-int mask=~(1<<i;
+int mask=~(1<<i);
 n=n&mask;
 printBin(n);
 }
@@ -28,5 +28,5 @@ int main()
 {
     setbit(2);
     clearbit(5);
-    return 0;
+    return 0; 
 } 
